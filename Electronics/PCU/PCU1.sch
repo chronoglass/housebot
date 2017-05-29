@@ -1,0 +1,171 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Power Control Unit"
+Date ""
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L200 IC1
+U 1 1 592A0072
+P 3750 2600
+F 0 "IC1" H 4000 2950 50  0000 C CNN
+F 1 "L200" H 3550 2950 50  0000 C CNN
+F 2 "" H 3750 2700 50  0000 C CNN
+F 3 "" H 3750 2700 50  0000 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BARREL_JACK CON?
+U 1 1 592A0155
+P 2150 2500
+F 0 "CON?" H 2150 2750 50  0000 C CNN
+F 1 "BARREL_JACK 12v" H 2150 2300 50  0000 C CNN
+F 2 "" H 2150 2500 50  0000 C CNN
+F 3 "" H 2150 2500 50  0000 C CNN
+	1    2150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 592A02C5
+P 6950 3150
+F 0 "D?" H 6950 3250 50  0000 C CNN
+F 1 "D" H 6950 3050 50  0000 C CNN
+F 2 "" H 6950 3150 50  0000 C CNN
+F 3 "" H 6950 3150 50  0000 C CNN
+	1    6950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 592A0880
+P 4600 2400
+F 0 "R3" V 4680 2400 50  0000 C CNN
+F 1 "R" V 4600 2400 50  0000 C CNN
+F 2 "" V 4530 2400 50  0000 C CNN
+F 3 "" H 4600 2400 50  0000 C CNN
+	1    4600 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 592A08D1
+P 4600 2900
+F 0 "R1" V 4680 2900 50  0000 C CNN
+F 1 "R" V 4600 2900 50  0000 C CNN
+F 2 "" V 4530 2900 50  0000 C CNN
+F 3 "" H 4600 2900 50  0000 C CNN
+	1    4600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 592A08F7
+P 3750 3200
+F 0 "R2" V 3830 3200 50  0000 C CNN
+F 1 "R" V 3750 3200 50  0000 C CNN
+F 2 "" V 3680 3200 50  0000 C CNN
+F 3 "" H 3750 3200 50  0000 C CNN
+	1    3750 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 592A0922
+P 2800 2550
+F 0 "C1" H 2825 2650 50  0000 L CNN
+F 1 "220n" H 2825 2450 50  0000 L CNN
+F 2 "" H 2838 2400 50  0000 C CNN
+F 3 "" H 2800 2550 50  0000 C CNN
+	1    2800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 592A095B
+P 5250 2900
+F 0 "C2" H 5275 3000 50  0000 L CNN
+F 1 "C" H 5275 2800 50  0000 L CNN
+F 2 "" H 5288 2750 50  0000 C CNN
+F 3 "" H 5250 2900 50  0000 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2400 3350 2400
+Wire Wire Line
+	2450 2600 2450 2700
+Wire Wire Line
+	2450 2700 2800 2700
+Wire Wire Line
+	2800 2700 2800 3200
+Wire Wire Line
+	2800 3200 3600 3200
+Wire Wire Line
+	3550 3000 3550 3200
+Connection ~ 3550 3200
+Wire Wire Line
+	3950 3000 3950 3200
+Wire Wire Line
+	3900 3200 5250 3200
+Wire Wire Line
+	4150 2400 4450 2400
+Wire Wire Line
+	4750 2400 4750 2750
+Wire Wire Line
+	4750 2750 4600 2750
+Wire Wire Line
+	4150 2600 4600 2600
+Wire Wire Line
+	4600 2600 4600 2750
+Wire Wire Line
+	4600 3050 3950 3050
+Connection ~ 3950 3050
+Wire Wire Line
+	5250 3200 5250 3050
+Connection ~ 3950 3200
+Wire Wire Line
+	4750 2600 5250 2600
+Wire Wire Line
+	5250 2600 5250 2750
+Connection ~ 4750 2600
+$EndSCHEMATC
