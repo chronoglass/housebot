@@ -1,0 +1,224 @@
+(pcb "/home/chronoglass/Documents/housebot/Electronics/battery-monitor/battery-monitor.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.6-e0-6349~53~ubuntu16.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (boundary
+      (path pcb 0  63500 -57150  63500 -87630  116840 -87630  116840 -57150
+            63500 -57150  63500 -57150)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "SMD_Packages:SOIC-8-N"
+      (place U1 93980 -76200 front 270 (PN "ACS714LLCTR-30A-T"))
+      (place U2 93980 -67310 front 270 (PN "ACS714LLCTR-30A-T"))
+    )
+    (component Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02
+      (place C1 101600 -76200 front 0 (PN C))
+      (place C2 101600 -67310 front 0 (PN C))
+    )
+    (component "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_6pol"
+      (place J3 111760 -63500 front 270 (PN Screw_Terminal_1x06))
+    )
+    (component Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+      (place R1 78740 -77470 front 0 (PN R))
+      (place R2 78740 -73660 front 0 (PN R))
+      (place R3 78740 -69850 front 0 (PN R))
+      (place R4 78740 -66040 front 0 (PN R))
+    )
+    (component "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol"
+      (place J1 71120 -73660 front 270 (PN Screw_Terminal_1x02))
+      (place J2 71120 -66040 front 270 (PN Screw_Terminal_1x02))
+    )
+  )
+  (library
+    (image "SMD_Packages:SOIC-8-N"
+      (outline (path signal 150  -2540 2286  2540 2286))
+      (outline (path signal 150  2540 2286  2540 -2286))
+      (outline (path signal 150  2540 -2286  -2540 -2286))
+      (outline (path signal 150  -2540 -2286  -2540 2286))
+      (outline (path signal 150  -2540 762  -2032 762))
+      (outline (path signal 150  -2032 762  -2032 -508))
+      (outline (path signal 150  -2032 -508  -2540 -508))
+      (pin Rect[T]Pad_508x1143_um 8 -1905 3175)
+      (pin Rect[T]Pad_508x1143_um 7 -635 3175)
+      (pin Rect[T]Pad_508x1143_um 6 635 3175)
+      (pin Rect[T]Pad_508x1143_um 5 1905 3175)
+      (pin Rect[T]Pad_508x1143_um 4 1905 -3175)
+      (pin Rect[T]Pad_508x1143_um 3 635 -3175)
+      (pin Rect[T]Pad_508x1143_um 2 -635 -3175)
+      (pin Rect[T]Pad_508x1143_um 1 -1905 -3175)
+    )
+    (image Capacitors_THT:C_Rect_L4.6mm_W3.8mm_P2.50mm_MKS02_FKP02
+      (outline (path signal 100  -1050 1900  -1050 -1900))
+      (outline (path signal 100  -1050 -1900  3550 -1900))
+      (outline (path signal 100  3550 -1900  3550 1900))
+      (outline (path signal 100  3550 1900  -1050 1900))
+      (outline (path signal 120  -1110 1960  3610 1960))
+      (outline (path signal 120  -1110 -1960  3610 -1960))
+      (outline (path signal 120  -1110 1960  -1110 -1960))
+      (outline (path signal 120  3610 1960  3610 -1960))
+      (outline (path signal 50  -1400 2250  -1400 -2250))
+      (outline (path signal 50  -1400 -2250  3900 -2250))
+      (outline (path signal 50  3900 -2250  3900 2250))
+      (outline (path signal 50  3900 2250  -1400 2250))
+      (pin Round[A]Pad_1400_um 1 0 0)
+      (pin Round[A]Pad_1400_um 2 2500 0)
+    )
+    (image "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_6pol"
+      (outline (path signal 50  -1900 3300  19400 3300))
+      (outline (path signal 50  -1900 -4700  -1900 3300))
+      (outline (path signal 50  19400 -4700  -1900 -4700))
+      (outline (path signal 50  19400 3300  19400 -4700))
+      (outline (path signal 150  15750 -4100  15750 -4500))
+      (outline (path signal 150  12250 -4100  12250 -4500))
+      (outline (path signal 150  1750 -4100  1750 -4500))
+      (outline (path signal 150  5250 -4100  5250 -4500))
+      (outline (path signal 150  8750 -4100  8750 -4500))
+      (outline (path signal 150  -1750 -3000  19250 -3000))
+      (outline (path signal 150  -1750 -4100  19250 -4100))
+      (outline (path signal 150  -1750 3100  -1750 -4500))
+      (outline (path signal 150  19250 -4500  19250 3100))
+      (outline (path signal 150  19250 3100  -1750 3100))
+      (pin Round[A]Pad_2400_um 2 3500 0)
+      (pin Rect[A]Pad_2400x2400_um 1 0 0)
+      (pin Round[A]Pad_2400_um 3 7000 0)
+      (pin Round[A]Pad_2400_um 4 10500 0)
+      (pin Round[A]Pad_2400_um 5 14000 0)
+      (pin Round[A]Pad_2400_um 6 17500 0)
+    )
+    (image Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+      (outline (path signal 100  660 1250  660 -1250))
+      (outline (path signal 100  660 -1250  6960 -1250))
+      (outline (path signal 100  6960 -1250  6960 1250))
+      (outline (path signal 100  6960 1250  660 1250))
+      (outline (path signal 100  0 0  660 0))
+      (outline (path signal 100  7620 0  6960 0))
+      (outline (path signal 120  600 980  600 1310))
+      (outline (path signal 120  600 1310  7020 1310))
+      (outline (path signal 120  7020 1310  7020 980))
+      (outline (path signal 120  600 -980  600 -1310))
+      (outline (path signal 120  600 -1310  7020 -1310))
+      (outline (path signal 120  7020 -1310  7020 -980))
+      (outline (path signal 50  -1050 1600  -1050 -1600))
+      (outline (path signal 50  -1050 -1600  8700 -1600))
+      (outline (path signal 50  8700 -1600  8700 1600))
+      (outline (path signal 50  8700 1600  -1050 1600))
+      (pin Round[A]Pad_1600_um 1 0 0)
+      (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol"
+      (outline (path signal 50  -1900 3300  5400 3300))
+      (outline (path signal 50  -1900 -4700  -1900 3300))
+      (outline (path signal 50  5400 -4700  -1900 -4700))
+      (outline (path signal 50  5400 3300  5400 -4700))
+      (outline (path signal 150  1750 -4100  1750 -4500))
+      (outline (path signal 150  -1750 -3000  5250 -3000))
+      (outline (path signal 150  -1750 -4100  5250 -4100))
+      (outline (path signal 150  -1750 3100  -1750 -4500))
+      (outline (path signal 150  5250 -4500  5250 3100))
+      (outline (path signal 150  5250 3100  -1750 3100))
+      (pin Round[A]Pad_2400_um 2 3500 0)
+      (pin Rect[A]Pad_2400x2400_um 1 0 0)
+    )
+    (padstack Round[A]Pad_1400_um
+      (shape (circle F.Cu 1400))
+      (shape (circle B.Cu 1400))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2400_um
+      (shape (circle F.Cu 2400))
+      (shape (circle B.Cu 2400))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1600x1600_um
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2400x2400_um
+      (shape (rect F.Cu -1200 -1200 1200 1200))
+      (shape (rect B.Cu -1200 -1200 1200 1200))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_508x1143_um
+      (shape (rect F.Cu -254 -571.5 254 571.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J3-Pad6)"
+      (pins U1-8 U2-8 J3-6)
+    )
+    (net "Net-(J3-Pad5)"
+      (pins U1-7 J3-5)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins U1-6 C1-2)
+    )
+    (net GND
+      (pins U1-5 U1-4 U1-3 U2-5 U2-4 U2-3 C1-1 C2-2 J3-1 R2-1 R4-1 J1-2 J2-2)
+    )
+    (net "Net-(J1-Pad1)"
+      (pins U1-2 U1-1 R1-1 J1-1)
+    )
+    (net "Net-(J3-Pad4)"
+      (pins U2-7 J3-4)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins U2-6 C2-1)
+    )
+    (net "Net-(J2-Pad1)"
+      (pins U2-2 U2-1 R3-1 J2-1)
+    )
+    (net "Net-(J3-Pad2)"
+      (pins J3-2 R3-2 R4-2)
+    )
+    (net "Net-(J3-Pad3)"
+      (pins J3-3 R1-2 R2-2)
+    )
+    (class kicad_default "" GND "Net-(C1-Pad2)" "Net-(C2-Pad1)" "Net-(J1-Pad1)"
+      "Net-(J2-Pad1)" "Net-(J3-Pad2)" "Net-(J3-Pad3)" "Net-(J3-Pad4)" "Net-(J3-Pad5)"
+      "Net-(J3-Pad6)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  78740 -73660  75240 -73660  71120 -69540)(net GND)(type protect))
+    (wire (path F.Cu 250  71120 -66040  74930 -66040  78740 -69850)(net "Net-(J2-Pad1)")(type protect))
+  )
+)
