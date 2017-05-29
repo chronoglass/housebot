@@ -1,4 +1,4 @@
-update=Monday, May 29, 2017 'AMt' 12:48:31 AM
+update=Monday, May 29, 2017 'PMt' 01:02:27 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,11 +23,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/chronoglass/Documents/House-bot-1/libraries/acs714llctr-30a-t
+[general]
+version=1
