@@ -1,9 +1,9 @@
-(pcb "/Users/chronoglass/Documents/House-bot-1/Electronics/battery-monitor/battery-monitor.dsn"
+(pcb "/home/chronoglass/Documents/housebot/Electronics/battery-monitor/battery-monitor.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "4.0.5")
+    (host_version "4.0.6-e0-6349~53~ubuntu16.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -12,12 +12,6 @@
       (type signal)
       (property
         (index 0)
-      )
-    )
-    (layer B.Cu
-      (type signal)
-      (property
-        (index 1)
       )
     )
     (boundary
@@ -47,15 +41,15 @@
       (place J1 116840 -118110 front 180 (PN Screw_Terminal_1x02))
       (place J2 115570 -127000 front 270 (PN Screw_Terminal_1x02))
       (place J3 115570 -134620 front 270 (PN Screw_Terminal_1x02))
-      (place J4 176530 -114300 front 90 (PN Screw_Terminal_1x02))
-      (place J5 176530 -123190 front 90 (PN Screw_Terminal_1x02))
+      (place J4 176530 -123190 front 90 (PN Screw_Terminal_1x02))
+      (place J5 176530 -114300 front 90 (PN Screw_Terminal_1x02))
     )
     (component Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-      (place R1 142240 -123190 front 0 (PN R))
-      (place R2 142240 -119380 front 0 (PN R))
-      (place R3 142240 -128270 front 0 (PN R))
-      (place R4 142240 -115570 front 0 (PN R))
-      (place R5 142240 -133350 front 0 (PN R))
+      (place R1 142240 -127000 front 0 (PN R))
+      (place R2 142240 -123190 front 0 (PN R))
+      (place R3 142240 -132080 front 0 (PN R))
+      (place R4 142240 -119380 front 0 (PN R))
+      (place R5 142240 -115570 front 0 (PN R))
     )
     (component "SMD_Packages:SOIC-8-N"
       (place U1 128270 -119380 front 270 (PN "ACS714LLCTR-30A-T"))

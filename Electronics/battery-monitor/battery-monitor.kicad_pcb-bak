@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
     (links 46)
     (no_connects 46)
-    (area 0 0 0 0)
+    (area 106.937618 104.397618 183.605 146.975)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -378,7 +378,7 @@
   )
 
   (module Housings_DIP:DIP-28_W7.62mm_Socket (layer F.Cu) (tedit 58CC8E2F) (tstamp 5934A718)
-    (at 156.21 110.49)
+    (at 158.75 110.49)
     (descr "28-lead dip package, row spacing 7.62 mm (300 mils), Socket")
     (tags "DIL DIP PDIP 2.54mm 7.62mm 300mil Socket")
     (path /593378B7)
@@ -571,7 +571,7 @@
   )
 
   (module Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol (layer F.Cu) (tedit 0) (tstamp 5934A758)
-    (at 176.53 114.3 90)
+    (at 176.53 123.19 90)
     (descr "2-way 3.5mm pitch terminal block, Phoenix PT series")
     (path /5933B3A7)
     (fp_text reference J4 (at 1.75 -4.3 90) (layer F.SilkS)
@@ -602,7 +602,7 @@
   )
 
   (module Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol (layer F.Cu) (tedit 0) (tstamp 5934A768)
-    (at 176.53 123.19 90)
+    (at 176.53 114.3 90)
     (descr "2-way 3.5mm pitch terminal block, Phoenix PT series")
     (path /5933B7D3)
     (fp_text reference J5 (at 1.75 -4.3 90) (layer F.SilkS)
@@ -633,7 +633,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5934A77E)
-    (at 142.24 123.19)
+    (at 142.24 127)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /592BBAE9)
@@ -671,7 +671,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5934A794)
-    (at 142.24 119.38)
+    (at 142.24 123.19)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /592BBB37)
@@ -709,7 +709,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5934A7AA)
-    (at 142.24 128.27)
+    (at 142.24 132.08)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /592BBB5A)
@@ -747,7 +747,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5934A7C0)
-    (at 142.24 115.57)
+    (at 142.24 119.38)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /592BBB80)
@@ -785,7 +785,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5934A7D6)
-    (at 142.24 133.35)
+    (at 142.24 115.57)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /59339C2E)
